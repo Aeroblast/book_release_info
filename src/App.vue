@@ -54,7 +54,7 @@ export default {
       filters: [],
       lastMonth: null,
       viewingMonth: null,
-      data_root: "data/",
+      data_root: DataSource.data_root,
       dateLine: "",
       input_current_label: "",
       sort_method: "Release Date",

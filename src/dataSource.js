@@ -110,3 +110,4 @@ function CompareRecords(a, b) {
 }
 exports.GetData = GetData;
 exports.CompareRecords = CompareRecords
+exports.data_root = data_root;
