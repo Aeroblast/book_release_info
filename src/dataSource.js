@@ -3,7 +3,7 @@ const data_root = "/book_release_info_data/"
 
 async function GetData(filename) {
     if (!filename.endsWith(".json")) filename = filename + ".json";
-    let res = await fetch(data_root + filename);
+    let res = await fetch(data_root + filename + `?t=${new Date().toISOString()}`);
     if (res.status != 200) {
         console.log(`${filename}: ${res.status}`)
         return null;
