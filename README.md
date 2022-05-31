@@ -1,4 +1,11 @@
-# webapp
+# [新刊情報強者になろう](https://aeroblast.github.io/book_release_info/)
+
+
+## To-do
++ 历史记录浏览
+  - 哪项改动
+  - 简介diff
++ 点击label添加筛选
 
 ## Project setup
 ```
@@ -19,6 +26,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
