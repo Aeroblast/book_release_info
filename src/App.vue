@@ -69,6 +69,7 @@ export default {
     t.setDate(t.getDate() - 7);
     this.dateLine = t.toISOLikeDate();
     console.log("基準:" + this.dateLine);
+    t.setDate(1);// avoid May 31 + 1 month = July 1
     this.viewingMonth = t;
     this.lastMonth = new Date(t);
     this.books = await DataSource.GetData(this.viewingFile());
